@@ -12,7 +12,7 @@ function isPrime(num) {
 
 // Function to check if the first element of an array is prime
 function checkFirstElementPrime(arr) {
-    if (arr.length === 0) return "Array is empty";
+    if (arr.length == 0) return "Array is empty";
     return isPrime(arr[0]) ? "First element is prime" : "First element is not prime";
 }
 
